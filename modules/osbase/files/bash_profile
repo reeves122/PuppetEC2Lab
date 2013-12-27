@@ -1,0 +1,15 @@
+export CLICOLOR=1
+export LSCOLORS=ExxxxxDxBxegedabxxacad
+
+# Example:
+# export PS1="\e[32;1m\]\u@\[\e[35;1m\]\H \[\e[0m\]\w]\$ "
+# export PS1="\u[0;34m\] \$"
+# export PS1="\e[0;36m \] \u@\h \w \$ \e[0;32m \]"“
+
+
+
+
+
+
+
+PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
