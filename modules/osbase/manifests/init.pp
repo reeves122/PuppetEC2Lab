@@ -19,8 +19,8 @@ class osbase {
   file { '/home/ec2-user/.bash_profile':
     ensure  => present,
     source  => 'puppet:///modules/osbase/bash_profile',
-    owner   => 'root',
-    group   => 'root',
+    owner   => 'ec2-user',
+    group   => 'ec2-user',
     mode    => '644',
   }
 
