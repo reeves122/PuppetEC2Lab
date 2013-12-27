@@ -8,4 +8,12 @@ class amibase {
     mode    => '755',
   }
 
+  file { '/etc/rc.d/rc.local':
+    ensure  => present,
+    source  => 'puppet:///modules/amibase/rc.local',
+    owner   => 'root',
+    group   => 'root',
+    mode    => '755',
+  }
+
 }
