@@ -1,5 +1,6 @@
 node /^jr-puppet/ {
  include osbase
+ include puppetmaster
 }
 
 node /^jr-template/ {
